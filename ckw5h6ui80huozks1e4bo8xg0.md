@@ -78,7 +78,7 @@ Jeff Atwood, is an American software developer, author, blogger, and entrepreneu
 
 Joel Spolsky is just as amazing as his fellow co-founder, Jeff. Joel is a software engineer and writer, with American, New Zealand, and Israeli citizenship. He has a Bachelor of Science in Computer Science from Yale University and also worked for Microsoft on the Microsoft Excel team.
 
-\----- \*\*\* ------
+## Conclusion
 
 The above four examples have been chosen, not because they stand above the rest, but only as representatives of their fellow creators and developers.
 
