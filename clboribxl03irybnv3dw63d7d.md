@@ -4,7 +4,7 @@
 
 *   Fluent SMTP is a WordPress plugin that aims at delivering your WordPress emails securely and as fast as possible. It does this by connecting your WordPress mail with your Email Service Provider (ESP).
     
-*   You can ***add multiple SMTP connections for transactional and marketing emails.*** In other words\*\*\*,\*\*\* you can connect to as many Email Service Providers as you want. It is 100% free and open source.
+*   You can ***add multiple SMTP connections for transactional and marketing emails.*** In other words, you can connect to as many Email Service Providers as you want. It is 100% free and open source.
     
 *   Let's look at how you can connect Zoho, a popular Email Service Provider, to Fluent SMTP in your WordPress site for secure and fast email delivery.
     
