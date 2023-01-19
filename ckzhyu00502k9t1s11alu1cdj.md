@@ -2,7 +2,7 @@
 
 Icons make explanations to viewers easier (self-explanatory if you wish) without saying a single word. Icons help writers, readers, and viewers visually represent, perceive, and understand each step of the story at hand or sight.
 
-These, as well as other reasons, are why icons are used on almost every website, app, logo, just mention it.
+These, as well as other reasons, are why icons are used on almost every website, app, and logo, just mention it.
 
 But here is the problem. Getting the right icons to use, and more so where to get them? Well, look no further, I have got you covered.
 
