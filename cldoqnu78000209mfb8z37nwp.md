@@ -42,9 +42,9 @@ Examples of Tailwind components include
 * Pricing tables
     
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1675331459668/af1db424-aa19-464c-9aec-24685417d1d3.png align="center")
+![Tailwind Component Images](https://cdn.hashnode.com/res/hashnode/image/upload/v1675331459668/af1db424-aa19-464c-9aec-24685417d1d3.png align="center")
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1675331505194/47bb33e5-9ea7-423a-af45-4d0466691690.png align="center")
+![Tailwind Component Images](https://cdn.hashnode.com/res/hashnode/image/upload/v1675331505194/47bb33e5-9ea7-423a-af45-4d0466691690.png align="center")
 
 When you use Tailwind CSS classes to create customizable, reusable, and responsive UI elements, they qualify as Tailwind components.
 
@@ -70,7 +70,7 @@ Go to your browser and visit *https://play.tailwindcss.com*
 
 *The image below shows how the playground looks like*
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1673945984323/a75a0f1b-9b91-4c29-8a30-02c6c6aeccce.png align="center")
+![Tailwind Playground homepage](https://cdn.hashnode.com/res/hashnode/image/upload/v1673945984323/a75a0f1b-9b91-4c29-8a30-02c6c6aeccce.png align="center")
 
 **Second-2:**
 
@@ -82,9 +82,9 @@ We can now write our code. Let's get started with our component
 
 **We aim for our component to look like this once it's done** ↓
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1675025254151/1eb56189-76ad-4ed8-a870-9e91089b024f.png align="center")
+![Responsive Tailwind Site Header](https://cdn.hashnode.com/res/hashnode/image/upload/v1675025254151/1eb56189-76ad-4ed8-a870-9e91089b024f.png align="center")
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1675150302610/9a50af0a-8f1d-48c1-b12e-feacbd4eaa4a.gif align="center")
+![Responsive site header](https://cdn.hashnode.com/res/hashnode/image/upload/v1675150302610/9a50af0a-8f1d-48c1-b12e-feacbd4eaa4a.gif align="center")
 
 ### **Creating the component**
 
@@ -115,7 +115,7 @@ Enter the markup of the component in your editor
 
 Below is how the component looks and behaves after you enter the above markup in the editor.
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1675146161690/59a243e3-781f-4318-9cb9-61f493988771.gif align="center")
+![Site header in Tailwind Playground](https://cdn.hashnode.com/res/hashnode/image/upload/v1675146161690/59a243e3-781f-4318-9cb9-61f493988771.gif align="center")
 
 Our site header is progressing nicely! Let's add some active and hover classes to the pages to make them more interactive.
 
@@ -138,7 +138,7 @@ Go to the CSS tab and add these classes for the anchor tags and active class.
 
 *A preview of what the above code does*
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1675145257085/54941682-5781-494f-b4f8-9c4263a8ee03.gif align="center")
+![Hovering on site header pages to see hover effects](https://cdn.hashnode.com/res/hashnode/image/upload/v1675145257085/54941682-5781-494f-b4f8-9c4263a8ee03.gif align="center")
 
 Alright, so far so good! The next step is to make the component both responsive, and customizable.
 
@@ -160,7 +160,7 @@ Creating it in a customizable manner needs you to define its global or theme set
 
 Head to the Config tab. There you will see where to set up your theme settings.
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1675151661625/0f26fda1-718a-4dcf-8877-33b016f2ef0b.png align="center")
+![Tailwind Playground Config Tab](https://cdn.hashnode.com/res/hashnode/image/upload/v1675151661625/0f26fda1-718a-4dcf-8877-33b016f2ef0b.png align="center")
 
 **Step-2**:
 
@@ -187,7 +187,7 @@ module.exports = {
 }
 ```
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1675439594735/bda52b5f-dc88-4e0a-8fd3-4b12d4598c51.png align="center")
+![Customizing Tailwind Compound in Config file](https://cdn.hashnode.com/res/hashnode/image/upload/v1675439594735/bda52b5f-dc88-4e0a-8fd3-4b12d4598c51.png align="center")
 
 > **Note**:
 > 
@@ -197,17 +197,17 @@ Now, change your colors and fonts in the markup and replace them with what you s
 
 *Tailwind colors to replace*
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1675193074490/a309f9f8-df10-4585-a553-89fc69252d82.png align="center")
+![Highlighting Tailwind's Colors in Code](https://cdn.hashnode.com/res/hashnode/image/upload/v1675193074490/a309f9f8-df10-4585-a553-89fc69252d82.png align="center")
 
 *Replacing Tailwind colors with our defined theme colors*
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1675196375630/2998f027-95fe-4d90-a63f-dab5ceabfcbf.png align="center")
+![Using Custom Colors in Tailwind as defined in theme settings](https://cdn.hashnode.com/res/hashnode/image/upload/v1675196375630/2998f027-95fe-4d90-a63f-dab5ceabfcbf.png align="center")
 
 Time to change the fonts, too. Tailwind provides three font families by default and these are sans-serif, serif, and monospaced.
 
 Now time to work on the fonts. Change the fonts of the logo, and pages by using the font class to add our defined fonts in theme settings.
 
-> **Note:** We shall with Tailwind's default fonts for the rest of the tutorial.
+> **Note:** We shall continue with Tailwind's default fonts for the rest of the tutorial.
 
 You can now change a font or color in your theme settings, and the effect will apply throughout the component without editing every instance in the markup.
 
@@ -260,7 +260,7 @@ module.exports = {
 }
 ```
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1675441105090/b8ae75c5-0ae1-4057-9cb2-31cccc151dd6.png align="center")
+![Customizing the Tailwind Config file](https://cdn.hashnode.com/res/hashnode/image/upload/v1675441105090/b8ae75c5-0ae1-4057-9cb2-31cccc151dd6.png align="center")
 
 We now need to make our component responsive based on the breakpoints in our theme settings.
 
@@ -287,7 +287,7 @@ We now need to make our component responsive based on the breakpoints in our the
 
 Test the component's responsiveness.
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1675329026070/690774aa-2b14-4bbf-9243-df03f78e5d30.gif align="center")
+![Resizing Tailwind Component to test its responsiveness](https://cdn.hashnode.com/res/hashnode/image/upload/v1675329026070/690774aa-2b14-4bbf-9243-df03f78e5d30.gif align="center")
 
 Make the component look awesome by using a hamburger menu for smaller screen sizes, as the menu for larger screens won't work.
 
@@ -310,11 +310,11 @@ After that, add the following classes to the SVG
    </svg>
 ```
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1675330344333/15792c45-9d82-4e23-8a64-c0d0b00f4016.png align="center")
+![Adding SVG Icon to Tailwind Component Code](https://cdn.hashnode.com/res/hashnode/image/upload/v1675330344333/15792c45-9d82-4e23-8a64-c0d0b00f4016.png align="center")
 
 Test the component's responsiveness again
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1675150302610/9a50af0a-8f1d-48c1-b12e-feacbd4eaa4a.gif align="left")
+![Testing Responsiveness of Tailwind Component on different screen sizes](https://cdn.hashnode.com/res/hashnode/image/upload/v1675150302610/9a50af0a-8f1d-48c1-b12e-feacbd4eaa4a.gif align="left")
 
 Kudos! on making your component both customizable and responsive. One thing is remaining now, testing the responsiveness of the UI element on different devices with varying screen sizes to ensure its responsiveness.
 
@@ -373,28 +373,28 @@ To do this, head over to [LamdaTest](https://www.lambdatest.com/lt-browser-beta)
     
 * Enter the URL of your Tailwind Component in the address bar
     
-    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1675263153141/30b95e1f-6b23-47b5-91dd-326e65999602.png align="center")
+    ![Testing Responsiveness of Tailwind Component on Mobile using LambdaTest's L2 Browser](https://cdn.hashnode.com/res/hashnode/image/upload/v1675263153141/30b95e1f-6b23-47b5-91dd-326e65999602.png align="center")
     
     Start testing on any of the available devices
     
-    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1675263920829/575e89d5-c6d0-4f72-99a0-a7860e726a3c.png align="center")
+    ![Testing landscape mobile view for Tailwind Component](https://cdn.hashnode.com/res/hashnode/image/upload/v1675263920829/575e89d5-c6d0-4f72-99a0-a7860e726a3c.png align="center")
     
     Do testing on different tablet devices
     
-    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1675263672776/2e298ae9-b8a5-4309-8bef-5000100b2454.png align="center")
+    ![Testing Tablet View of Tailwind Component using L2 Browser from LambdaTest](https://cdn.hashnode.com/res/hashnode/image/upload/v1675263672776/2e298ae9-b8a5-4309-8bef-5000100b2454.png align="center")
     
     Do testing on various desktop devices
     
-    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1675263520692/d583809a-9570-46b7-95a6-73b58a873584.png align="center")
+    ![Testing Desktop Responsiveness of Tailwind Component Using L2 Browser from LambdaTest](https://cdn.hashnode.com/res/hashnode/image/upload/v1675263520692/d583809a-9570-46b7-95a6-73b58a873584.png align="center")
     
 * Choose a device of your choice on which you wish to test your component, or add a custom one.
     
-    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1675326098857/ac3eca43-7694-458c-808a-97063a1184d2.png align="center")
+    ![Adding a custom component to the LambdaTest's L2 browser for responsive testing](https://cdn.hashnode.com/res/hashnode/image/upload/v1675326098857/ac3eca43-7694-458c-808a-97063a1184d2.png align="center")
     
 
 The LT Browser avails you with a couple of features. You can also generate a performance report.
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1675326204473/ddac6ba3-0526-432f-811f-8c5aa9fc7168.png align="center")
+![Generated Performance for Tailwind Component by LambdaTest's L2 Browser](https://cdn.hashnode.com/res/hashnode/image/upload/v1675326204473/ddac6ba3-0526-432f-811f-8c5aa9fc7168.png align="center")
 
 ### **Responsive Testing Your Component Using Chrome Dev Tools**
 
@@ -404,13 +404,13 @@ To check your component's responsiveness on different screen sizes and various d
     
 * Click on Preview on the component window
     
-    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1675358243619/25a8cd4d-f772-4566-bd0e-4b8de03e0078.png align="center")
+    ![Responsive Testing Tailwind Component Using Google Chrome Tools](https://cdn.hashnode.com/res/hashnode/image/upload/v1675358243619/25a8cd4d-f772-4566-bd0e-4b8de03e0078.png align="center")
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1675358426671/15278a00-1910-4c8a-8bcc-71cedb94e1ed.png align="center")
     
 * Click the *drop-down arrow* at the top of your window.
     
-    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1675245318514/3caf17db-9466-49bb-88a5-b595e560d9c0.png align="center")
+    ![Clicking drop-down arrow in Chrome Dev Tools to view devices to test on](https://cdn.hashnode.com/res/hashnode/image/upload/v1675245318514/3caf17db-9466-49bb-88a5-b595e560d9c0.png align="center")
     
     Here you can either choose *Responsive* or choose a *device* that you may wish to test your component's responsiveness on.
     
@@ -427,7 +427,7 @@ When you choose the *responsive* option, you will be able to view the response o
 
 You can decide to test your component's responsiveness on any of the available devices.
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1675243172921/70216e5e-457b-4057-b86d-79370f8adf7c.png align="center")
+![Preview of devices in Chrome Dev Tools on which you do responsive testing on your website or app](https://cdn.hashnode.com/res/hashnode/image/upload/v1675243172921/70216e5e-457b-4057-b86d-79370f8adf7c.png align="center")
 
 If you choose Galaxy Tab S4, for example, your component will look as shown in the image below on that device.
 
@@ -445,7 +445,7 @@ If there is a particular device on which you wish to test your component's respo
     
 * Click on *Add Custom Device.* Enter the device name and dimensions.
     
-    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1675246756763/c59d23b0-e5d0-46df-9bd8-98720158e11d.png align="center")
+    ![Adding a custom device to chrome dev tools for responsive testing](https://cdn.hashnode.com/res/hashnode/image/upload/v1675246756763/c59d23b0-e5d0-46df-9bd8-98720158e11d.png align="center")
     
 * You can now start responsive testing your component on the custom device you have just added to the Dev Tools.
     
@@ -486,7 +486,7 @@ Take a look, take inspiration. ↓
     ![Responsive Pricing page made in Tailwind CSS](https://cdn.hashnode.com/res/hashnode/image/upload/v1673949415038/26765ec5-b60e-4104-9b72-6538103df280.png align="center")
     
 
-If you find the components fascinating and would like to explore more for your learning and practice, check out this [GitHub Repository](https://github.com/MbaziiraRonald/Tailwind_Components) that contains additional components I created. Use them to learn and practice while creating widgets or putting your Tailwind knowledge to practice. 
+If you find the components fascinating and would like to explore more for your learning and practice, check out this [GitHub Repository](https://github.com/MbaziiraRonald/Tailwind_Components) that contains additional components I created. Use them to learn and practice while creating widgets or putting your Tailwind knowledge to practice.
 
 ## Conclusion
 
