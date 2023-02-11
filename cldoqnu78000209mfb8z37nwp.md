@@ -4,7 +4,7 @@ Many companies and individuals, including startups and solopreneurs, use UI comp
 
 Most developers, chiefly front-end and full-stack developers, often struggle to build such UI components. This results in the creation of inflexible and unresponsive UI components.
 
-In this article, you will learn how to create customizable and responsive UI components which are flexible, adaptable, and visually appealing using Tailwind CSS.
+In this article, you will learn how to create customizable and responsive UI components which are flexible, adaptable, and visually appealing using Tailwind CSS. After that, you will learn how to test the responsiveness of the components on multiple devices and different screen sizes using Chrome Dev Tools, LambdaTest, and Tailwind Play.
 
 > "Tailwind CSS is a utility-first CSS framework packed with classes like `flex`, `pt-4`, `text-center` and `rotate-90` that can be composed to build any design directly in your markup." ([Source: Tailwind](https://tailwindcss.com))
 
@@ -12,11 +12,11 @@ In this article, you will learn how to create customizable and responsive UI com
 
 To follow along in this article, you need to know of:
 
-* Basic HTML
+* [Basic HTML](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics)
     
-* Basic CSS
+* [Basic CSS](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics)
     
-* Media Queries
+* [Media Queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)
     
 
 Let's get started!
@@ -307,7 +307,7 @@ After that, add the following classes to the SVG
 ```xml
 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="sm:flex hidden h-8 w-8 cursor-pointer">
       <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-   </svg>
+</svg>
 ```
 
 ![Adding SVG Icon to Tailwind Component Code](https://cdn.hashnode.com/res/hashnode/image/upload/v1675330344333/15792c45-9d82-4e23-8a64-c0d0b00f4016.png align="center")
