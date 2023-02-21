@@ -86,13 +86,13 @@ The `charset` sets the character encoding of the HTML document. It usually takes
 
 HTML meta tags have tons of benefits for your web page. Let's take a look at some of them.
 
-* Meta tags can improve the Search Engine Optimization (SEO) ranking of your website by providing search engines with more information about your website's content, layout, and target. 
+* Meta tags can improve the Search Engine Optimization (SEO) ranking of your website by providing search engines with more information about your website's content, layout, and target.
     
-* Open Graph meta tags can improve social sharing by supplying valuable descriptive media information about the web page's content. 
+* Open Graph meta tags can improve social sharing by supplying valuable descriptive media information about the web page's content.
     
-* You can use meta tags to specify how different browsers should render your web pages, which ensures that your content doesn't break on various devices. 
+* You can use meta tags to specify how different browsers should render your web pages, which ensures that your content doesn't break on various devices.
     
-* You can use meta tags to protect your web applications from common security vulnerabilities by specifying security-related metadata like content security policies. 
+* You can use meta tags to protect your web applications from common security vulnerabilities by specifying security-related metadata like content security policies.
     
 
 ## **Common HTML Meta Tags And Their Uses**
@@ -258,9 +258,9 @@ Open Graph meta tags (also known as **OG meta tags**) control the appearance of 
 
 Let's take a look at the examples in the images below. The previews are of Hashnode articles, [What Exactly Are Sentence Fragments](https://mbaziira.hashnode.dev/technical-writing-bits-what-exactly-are-sentence-fragments) and [How To Create Responsive and Customizable UI Components Using Tailwind](https://mbaziira.hashnode.dev/how-to-create-customizable-and-responsive-ui-components-using-tailwind), shared on Twitter. The noticeable features of the previews are the articles' images, links, titles, and descriptions.
 
-![Open Graph of an hashnode article on Twitter ](https://cdn.hashnode.com/res/hashnode/image/upload/v1676706963536/f4db9169-2841-403f-b147-54930a96fa86.png align="center")
+![Twitter OG Card](https://cdn.hashnode.com/res/hashnode/image/upload/v1676958583670/6386f8d1-80e2-4d32-a8ac-12cce8f59243.png align="center")
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1676709183538/f2c29f66-e8bb-4632-9656-b1cced53e0ae.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1676958712325/d845b7dd-af01-4e96-b4f1-245cfeaf96ac.png align="center")
 
 OG meta tags take in the `property` attribute, which specifies the open graph property related to the content. It is one of the indicators that a meta tag is an Open Graph meta tag. Some properties have extra optional properties that you can use alongside them.
 
