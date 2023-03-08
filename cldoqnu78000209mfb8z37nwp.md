@@ -1,4 +1,15 @@
-# How To Create Customizable And Responsive UI Components Using Tailwind
+---
+title: "How To Create Customizable And Responsive UI Components Using Tailwind"
+seoTitle: "How To Create Customizable And Responsive UI Components Using Tailwind"
+seoDescription: "Learn how to create customizable, responsive, and captivating UI components using Tailwind CSS."
+datePublished: Fri Feb 03 2023 16:26:26 GMT+0000 (Coordinated Universal Time)
+cuid: cldoqnu78000209mfb8z37nwp
+slug: how-to-create-customizable-and-responsive-ui-components-using-tailwind
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1675601287574/6f156f58-8fc0-40d2-b651-c69766bfca27.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1675601317660/11df56c4-30c6-43dd-9695-375daa8f95c0.png
+tags: responsive-web-design, 2articles1week, tailwind-css, tailwind-css-tutorial, customizable-ui-templates
+
+---
 
 Many companies and individuals, including startups and solopreneurs, use UI components to create the front end of their websites and apps. These components help them communicate their ideas, convert potential customers into actual ones, and connect with their audience. The UI components must be customizable, responsive, and visually captivating.
 
@@ -72,13 +83,15 @@ Go to your browser and visit *https://play.tailwindcss.com*
 
 ![Tailwind Playground homepage](https://cdn.hashnode.com/res/hashnode/image/upload/v1673945984323/a75a0f1b-9b91-4c29-8a30-02c6c6aeccce.png align="center")
 
-**Second-2:**
+**Step-2:**
 
-Highlight and delete the code in the editor
+Highlight and delete the code in the editor.
 
 **Step-3:**
 
-We can now write our code. Let's get started with our component
+We can now write our code. Let's get started with our component.
+
+Alright, let's start working on our component.
 
 **We aim for our component to look like this once it's done** ↓
 
@@ -90,7 +103,7 @@ We can now write our code. Let's get started with our component
 
 **A simple responsive site header**
 
-Enter the markup of the component in your editor
+Enter the markup of the component in your editor.
 
 ```xml
 <div class="flex h-screen items-center">
@@ -135,8 +148,6 @@ Go to the CSS tab and add these classes for the anchor tags and active class.
   }
 }
 ```
-
-*A preview of what the above code does*
 
 ![Hovering on site header pages to see hover effects](https://cdn.hashnode.com/res/hashnode/image/upload/v1675145257085/54941682-5781-494f-b4f8-9c4263a8ee03.gif align="center")
 
@@ -191,7 +202,7 @@ module.exports = {
 
 > **Note**:
 > 
-> When you set up your custom colors inside the extend object, you are able to use both them and Tailwind's provided colors. Otherwise, you can only work with the colors you have set up.
+> When you set up your custom colors inside the extend object, you can use both them and Tailwind's provided colors. Otherwise, you can only work with the colors you have set up.
 
 Now, change your colors and fonts in the markup and replace them with what you set in your Config file.
 
@@ -230,7 +241,7 @@ For this example, we are going to make our component responsive based on the fam
 * **Extra large screens**: 1201px, and more.
     
 
-Let's go ahead and add the above breakpoints to our theme settings.
+Go ahead and add the above breakpoints to your theme settings.
 
 ```javascript
 /** @type {import('tailwindcss').Config} */
@@ -262,7 +273,7 @@ module.exports = {
 
 ![Customizing the Tailwind Config file](https://cdn.hashnode.com/res/hashnode/image/upload/v1675441105090/b8ae75c5-0ae1-4057-9cb2-31cccc151dd6.png align="center")
 
-We now need to make our component responsive based on the breakpoints in our theme settings.
+You now need to make your component responsive based on the breakpoints in your theme settings.
 
 ```xml
 <div class="flex h-screen items-center">
@@ -291,7 +302,7 @@ Test the component's responsiveness.
 
 Make the component look awesome by using a hamburger menu for smaller screen sizes, as the menu for larger screens won't work.
 
-Let's add a hamburger menu to our HTML markup. Follow the steps below to get going:
+Let's add a hamburger menu to the HTML markup. Follow the steps below to get going:
 
 1. Visit [Hero icons](https://heroicons.com/)
     
@@ -330,7 +341,7 @@ After you create your Tailwind component, you need to test its responsiveness on
     
 * LambdaTest
     
-* Chrome dev tools
+* Chrome Dev Tools
     
 
 Let's see how you can use each of them.
@@ -344,14 +355,14 @@ To get started, follow the steps below:
 * Click the icon in the upper right corner, which is on the left of the light/dark mode icon.
     
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1675197191849/ff5ec31e-2efb-4389-b045-f1346dda12ec.png align="center")
+![Click on responsive testing icon in Tailwind playground](https://cdn.hashnode.com/res/hashnode/image/upload/v1675197191849/ff5ec31e-2efb-4389-b045-f1346dda12ec.png align="center")
 
-* Drag your component's window and see how it responds to different screen sizes defined as defined in your config file.
+* Drag your component's window and see how it responds to different screen sizes as defined in your config file.
     
 * You can now see its responsiveness in the playground as you adjust the screen size.
     
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1675198048133/54a61172-05c0-47e3-a69d-8f4a82bd5570.gif align="center")
+![Testing the responsiveness of the component in Tailwind playground](https://cdn.hashnode.com/res/hashnode/image/upload/v1675198048133/54a61172-05c0-47e3-a69d-8f4a82bd5570.gif align="center")
 
 You have successfully tested your component's responsiveness using the playground.
 
@@ -365,7 +376,7 @@ We are going to use its responsive testing LT Browser 2.0. The LT Browser is a
 
 > "next-gen browser to build, test & debug mobile websites." (Source: [LambdaTest](https://www.lambdatest.com/lt-browser-beta))
 
-To do this, head over to [LamdaTest](https://www.lambdatest.com/lt-browser-beta). After that, follow the below steps to get started with the testing:
+To do this, head over to [LamdaTest](https://www.lambdatest.com/lt-browser-beta?fp_ref=mbaziira-64). After that, follow the below steps to get started with the testing:
 
 * Install the LT Browser on your machine
     
@@ -375,7 +386,7 @@ To do this, head over to [LamdaTest](https://www.lambdatest.com/lt-browser-beta)
     
     ![Testing Responsiveness of Tailwind Component on Mobile using LambdaTest's L2 Browser](https://cdn.hashnode.com/res/hashnode/image/upload/v1675263153141/30b95e1f-6b23-47b5-91dd-326e65999602.png align="center")
     
-    Start testing on any of the available devices
+    Start testing on any of the available devices of your choice
     
     ![Testing landscape mobile view for Tailwind Component](https://cdn.hashnode.com/res/hashnode/image/upload/v1675263920829/575e89d5-c6d0-4f72-99a0-a7860e726a3c.png align="center")
     
@@ -395,6 +406,8 @@ To do this, head over to [LamdaTest](https://www.lambdatest.com/lt-browser-beta)
 The LT Browser avails you with a couple of features. You can also generate a performance report.
 
 ![Generated Performance for Tailwind Component by LambdaTest's L2 Browser](https://cdn.hashnode.com/res/hashnode/image/upload/v1675326204473/ddac6ba3-0526-432f-811f-8c5aa9fc7168.png align="center")
+
+You can [check out more on LambdaTest here](http://www.lambdatest.com?fp_ref=mbaziira-64).
 
 ### **Responsive Testing Your Component Using Chrome Dev Tools**
 
@@ -472,14 +485,13 @@ I share them with you in the hopes that they inspire you to create your first Ta
 
 Take a look, take inspiration. ↓
 
-* **Pricing Table**
-    
-    Visit [`Pricing table`](https://play.tailwindcss.com/MotbiAE6Ja)
-    
+**Pricing Table**
+
+Visit [`Pricing table`](https://play.tailwindcss.com/MotbiAE6Ja)
 
 ![Responsive Pricing Table made using Tailwind CSS](https://cdn.hashnode.com/res/hashnode/image/upload/v1673790129325/487f82da-e263-4ec4-8fd3-792718d097c8.png align="right")
 
-* Pricing page
+* **Pricing page**
     
     Visit [`Pricing page`](https://play.tailwindcss.com/r5tIZ6enXE)
     
